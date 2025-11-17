@@ -10,6 +10,8 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
+/* HERO SECTION STYLES */
+
 .hero-section {
     background-color: #1F2937;
     padding: 16px 248px;
@@ -83,4 +85,44 @@ body {
     align-items: center;
     background-color: #909090b0;
     height: 210px;
+}
+
+/* INFORMATION SECTION STYLES */
+
+.info-section {
+    margin-top: 48px;
+    text-align: center;
+}
+
+.info-section h2 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.card-container {
+    display: flex;
+    padding: 0 296px;
+    margin-top: 48px;
+    gap: 24px;
+    margin-bottom: 128px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+.card div{
+    width: 180px;
+    height: 180px;
+    border: 6px solid #3882F6;
+    border-radius: 16px;
+}
+
+.card p {
+    font-size: 18px;
+    color: #787878;
 }
