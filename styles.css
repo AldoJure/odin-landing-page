@@ -126,3 +126,26 @@ body {
     font-size: 18px;
     color: #787878;
 }
+
+/* QUOTE SECTION STYLES */
+
+.quote-section {
+    padding: 156px 350px;
+    text-align: center;
+    background-color: #E5E7EB;
+}
+
+.quote-section .quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: 300;
+    text-align: left;
+}
+
+.quote-section .author {
+    font-size: 24px;
+    color: #1F2937;
+    font-weight: 700;
+    text-align: right;
+}
