@@ -149,3 +149,37 @@ body {
     font-weight: 700;
     text-align: right;
 }
+
+/* CALL TO ACTION STYLES*/
+
+.cta-container {
+    margin: 156px 248px;
+    padding: 32px 132px;
+    background-color: #3882F6;
+    border-radius: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cta-text .first-cta-text {
+    font-size: 24px;
+    font-weight: 500;
+    color: #E5E7EB;
+}
+
+.cta-text .second-cta-text {
+    font-size: 16px;
+    font-weight: 300;
+    color: #E5E7EB;
+}
+
+.cta-container button{
+    padding: 8px 32px;
+    border-radius: 8px;
+    border: 2px solid #E5E7EB;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    font-weight: 700;
+    font-size: 16px;
+}
